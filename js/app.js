@@ -30,7 +30,7 @@
 			// todos: [{id: 1, title:'new task', completed: false},
 			// 	{id: 2, title:'new task', completed: false},
 			// 	{id: 3, title:'new task', completed: false}],
-			todos: [...Array(100)].map( (_, i) => ({ id: i, title:'new task' + ' ' + i, completed: i % 3 })),
+			todos: [...Array(10000)].map( (_, i) => ({ id: i, title:'new task' + ' ' + i, completed: i % 3 })),
 			newTodo: '',
 			editedTodo: null,
 			visibility: 'all'
