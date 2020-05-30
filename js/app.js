@@ -26,7 +26,7 @@
 		el: '.checklist',
 
 		data: {
-			todos: [...Array(10000)].map( (_, i) => ({ id: i, title:'new task' + ' ' + i, completed: i % 3 })),
+			todos: [...Array(5000)].map( (_, i) => ({ id: i, title:'new task' + ' ' + i, completed: i % 3 })),
 			newTodo: '',
 			editedTodo: null,
 			visibility: 'all'
